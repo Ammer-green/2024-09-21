@@ -1,0 +1,13 @@
+#include<stdio>
+struct stu
+{ 
+  char name[20];
+  int age;
+  double scole;
+}
+int main()
+{
+  struct stu a={"Ammercircle",18,100};
+  printf("%s %d %lf",s.name,s.age,s.scole);
+  return 0;
+}
